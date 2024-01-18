@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>princesas da disney</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/reset.css">
+    <link rel="stylesheet" href="./src/estilo.css">
+    <link rel="stylesheet" href="./src/responsivo.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="./src/imagens/Disney_Princesa_Logo.png" alt="logo">
+    </header>
+    <main class="selecao-de-personagens">
+     <section class="personagens">
+        <h1 class="titulo">Selecione um personagem</h1>
+        <ul class="lista-de-personagens">
+        <li class="personagem selecionado" id="branca" data-name="branca" data-description="branca">
+            <img src="./src/imagens/card-branca.jpg" alt="Personagem branca"
+            />
+         </li>
+         <li class="personagem" id="cinderela" data-name="cinderela" data-description="cinderela">
+            <img src="./src/imagens/card-cinderela.jpg" alt="Personagem cinderela"
+            />
+         </li>
+         <li class="personagem" id="aurora" data-name="aurora" data-description="aurora">
+            <img src="./src/imagens/card-aurora.jpg" alt="Personagem aurora"
+            />
+         </li>
+         <li class="personagem" id="bela" data-name="bela" data-description="bela">
+            <img src="./src/imagens/card-bela.jpg" alt="Personagem bela"
+            />
+         </li>
+         <li class="personagem" id="jasmine" data-name="jasmine" data-description="jasmine">
+            <img src="./src/imagens/card-jasmine.jpg" alt="Personagem jasmine"
+            />
+         </li>
+        </ul>
+       </section>
+        <section class="personagem-selecionado">
+         <img class="personagem-grande" 
+          src="./src/imagens/card-branca.png"
+          alt="Personagem Selecionado">
+
+         <div class="informacoes-personagem" id="informacoes-personagem">
+         <h2 class="nome-personagem" id="nome-personagem">branca</h2>
+         <p class="descricao-personagem" id="descricao-personagem">branca</p>
+         </div>
+         </section>
+         </main>
+         <script src="./main.js"></script>
+         </body>
+         </html>
